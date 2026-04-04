@@ -21,6 +21,10 @@
     "react-leaflet": "^5.0.0"
   },
   "devDependencies": {
-    "prisma": "^7.6.0"
+    "@types/node": "^25.5.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "prisma": "^7.6.0",
+    "typescript": "^6.0.2"
   }
 }
