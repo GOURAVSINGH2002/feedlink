@@ -121,8 +121,8 @@ export default function AuthPage() {
   };
 
   return (
-    <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '2rem', background: 'var(--bg-primary)' }}>
-      <div style={{ maxWidth: mode === 'signup' ? '780px' : '480px', width: '100%', transition: 'max-width 0.3s ease' }}>
+    <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 'clamp(1rem, 4vw, 2rem)', background: 'var(--bg-primary)' }}>
+      <div style={{ maxWidth: mode === 'signup' ? 'min(780px, 100%)' : 'min(480px, 100%)', width: '100%', transition: 'max-width 0.3s ease' }}>
 
         {/* Header */}
         <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
@@ -151,7 +151,7 @@ export default function AuthPage() {
           ))}
         </div>
 
-        <div className="card" style={{ padding: '2rem' }}>
+        <div className="card" style={{ padding: 'clamp(1rem, 4vw, 2rem)' }}>
 
           {/* Success Message */}
           {success && (

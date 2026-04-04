@@ -1332,3 +1332,255 @@ tr:last-child td { border-bottom: none; }
   background: var(--bg-elevated);
   color: var(--primary);
 }
+
+/* ============================================
+   RESPONSIVE DESIGN — MOBILE FIRST
+   ============================================ */
+
+/* -- Tablets (≤ 1024px) -- */
+@media (max-width: 1024px) {
+  .page-header h1 { font-size: 1.7rem; }
+  .impact-grid { grid-template-columns: repeat(2, 1fr); }
+  .footer-grid { grid-template-columns: 1fr 1fr; gap: var(--space-xl); }
+}
+
+/* -- Mobile + Tablet (≤ 768px) -- */
+@media (max-width: 768px) {
+  /* Page container */
+  .page-container { padding: var(--space-md) var(--space-md); }
+
+  /* Page header */
+  .page-header { margin-bottom: var(--space-xl); }
+  .page-header h1 { font-size: 1.5rem; }
+  .page-header p { font-size: 0.88rem; }
+
+  /* Section card header — allow wrapping */
+  .section-card-header {
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-md);
+  }
+  .section-card-header h2 { font-size: 1rem; }
+
+  /* Stat cards */
+  .stat-info h3 { font-size: 1.3rem; }
+  .stat-card { padding: var(--space-md); gap: var(--space-sm); }
+  .stat-icon { width: 44px; height: 44px; font-size: 1.3rem; }
+
+  /* Dashboard grid already has 1fr, but fix nested inline ones */
+  .dashboard-grid { grid-template-columns: 1fr; }
+
+  /* Donation items — allow badge to wrap below */
+  .donation-item { flex-wrap: wrap; gap: var(--space-sm); }
+  .donation-meta { width: 100%; justify-content: flex-end; }
+
+  /* Tabs — horizontal scroll */
+  .tabs {
+    overflow-x: auto;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+  }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tab { flex-shrink: 0; }
+
+  /* Modal */
+  .modal-content {
+    width: 95%;
+    padding: var(--space-lg);
+    max-height: 90vh;
+  }
+
+  /* Toast — full-width bottom */
+  .toast {
+    left: var(--space-md);
+    right: var(--space-md);
+    bottom: var(--space-md);
+    width: auto;
+  }
+
+  /* Notification dropdown — full width */
+  .notif-dropdown { width: calc(100vw - 2rem); right: -0.5rem; }
+
+  /* Tracker steps — vertical on mobile */
+  .tracker-steps {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-md);
+    padding: var(--space-md) 0;
+  }
+  .tracker-steps::before {
+    display: none;
+  }
+  .tracker-step {
+    flex-direction: row;
+    width: 100%;
+    gap: var(--space-md);
+    align-items: center;
+  }
+  .tracker-label { max-width: none; text-align: left; }
+
+  /* Progress bar labels */
+  .progress-labels {
+    flex-direction: column;
+    gap: var(--space-xs);
+  }
+
+  /* Impact grid */
+  .impact-grid { grid-template-columns: repeat(2, 1fr); gap: var(--space-md); }
+  .impact-number { font-size: 1.8rem; }
+
+  /* Steps grid */
+  .steps-grid { grid-template-columns: repeat(2, 1fr); }
+
+  /* Section padding */
+  .section { padding: var(--space-2xl) var(--space-md); }
+  .section-title { font-size: 1.7rem; }
+  .section-subtitle { font-size: 0.92rem; }
+
+  /* Footer */
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .footer { padding: var(--space-2xl) var(--space-md) var(--space-lg); }
+
+  /* Table — allow horizontal scroll */
+  .table-container { -webkit-overflow-scrolling: touch; }
+  table { min-width: 480px; }
+
+  /* Map sidebar */
+  .map-page { flex-direction: column; }
+  .map-sidebar { width: 100%; max-height: 35vh; border-right: none; border-bottom: 1px solid var(--border); }
+
+  /* Chart wrapper */
+  .chart-wrapper { height: 220px; }
+
+  /* Gauge */
+  .gauge-container { width: 90px; height: 90px; }
+  .gauge-text { font-size: 1rem; }
+}
+
+/* -- Small Mobile (≤ 480px) -- */
+@media (max-width: 480px) {
+  /* Grids collapse to 1 */
+  .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+  .steps-grid { grid-template-columns: 1fr; }
+  .impact-grid { grid-template-columns: 1fr 1fr; gap: var(--space-sm); }
+
+  /* Page header */
+  .page-header h1 { font-size: 1.3rem; }
+
+  /* Hero */
+  .hero-title { font-size: 1.9rem; }
+  .hero-subtitle { font-size: 0.95rem; }
+  .hero-actions { flex-direction: column; width: 100%; }
+  .hero-actions .btn { width: 100%; justify-content: center; }
+
+  /* Buttons */
+  .btn-lg { padding: 0.75rem 1.5rem; font-size: 0.95rem; }
+
+  /* Section card header flex */
+  .section-card-header { flex-direction: column; align-items: flex-start; }
+
+  /* Modal */
+  .modal-content { width: 100%; border-radius: var(--radius-lg) var(--radius-lg) 0 0; margin-top: auto; max-height: 95vh; }
+
+  /* Footer */
+  .footer-grid { grid-template-columns: 1fr; }
+  .footer-desc { display: none; }
+
+  /* Impact numbers */
+  .impact-card { padding: var(--space-lg) var(--space-md); }
+  .impact-number { font-size: 1.5rem; }
+  .impact-icon { font-size: 1.8rem; }
+
+  /* Section title */
+  .section-title { font-size: 1.4rem; }
+
+  /* Stats card compact */
+  .stat-card { gap: var(--space-sm); }
+  .stat-info h3 { font-size: 1.1rem; }
+  .stat-icon { display: none; }
+
+  /* Donation item compact */
+  .donation-info h4 { font-size: 0.85rem; }
+
+  /* Badge wrap */
+  .donation-meta { flex-wrap: wrap; }
+
+  /* Chart */
+  .chart-wrapper { height: 180px; }
+
+  /* QR wrapper */
+  .qr-wrapper { padding: var(--space-md); }
+
+  /* Nav brand text shorter */
+  .navbar-brand { font-size: 1.2rem; }
+
+  /* Leaderboard rank */
+  .leaderboard-item { padding: var(--space-sm); }
+}
+
+/* -- Inline grid helpers for page-level responsive -- */
+/* These target common inline grid patterns used in pages */
+@media (max-width: 768px) {
+  /* Donor form 2-col grids */
+  [style*="grid-template-columns: 1fr 1fr"] {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  /* 3-col grids used in admin/corporate pages */
+  [style*="grid-template-columns: repeat(3"] {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+  }
+  /* 4-col grids used in sustainability page */
+  [style*="grid-template-columns: repeat(4"] {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+  }
+  /* overflowX: auto rows that shouldn't stack */
+  [style*="overflowX: auto"] { flex-wrap: nowrap !important; }
+  [style*="overflow-x: auto"] { flex-wrap: nowrap !important; }
+}
+
+@media (max-width: 480px) {
+  [style*="grid-template-columns: repeat(3"] {
+    grid-template-columns: 1fr !important;
+  }
+  [style*="grid-template-columns: repeat(4"] {
+    grid-template-columns: 1fr 1fr !important;
+  }
+  [style*="grid-template-columns: 1fr 2fr"],
+  [style*="grid-template-columns: 2fr 1fr"] {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
+
+/* Catch '1fr 1fr 1fr' (admin trust scores, fridge capacity grids) */
+@media (max-width: 768px) {
+  [style*="grid-template-columns: 1fr 1fr 1fr"] {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+@media (max-width: 480px) {
+  [style*="grid-template-columns: 1fr 1fr 1fr"] {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Fix page-header flex rows that have buttons alongside titles */
+@media (max-width: 640px) {
+  .page-header[style*="display: flex"],
+  [style*="justifyContent: space-between"][style*="flexWrap"] {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+  /* Make all full-width buttons on mobile */
+  .page-header .btn-primary,
+  .page-header .btn-secondary {
+    width: 100%;
+    justify-content: center;
+  }
+}

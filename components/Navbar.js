@@ -101,6 +101,8 @@ export default function Navbar() {
                     background: 'var(--bg-card)', borderRadius: 'var(--radius-lg)',
                     border: '1px solid var(--border-light)', boxShadow: '0 12px 40px rgba(0,0,0,0.4)',
                     overflow: 'hidden',
+                    // On very small screens, align to left so it doesn't go off-screen
+                    maxWidth: 'calc(100vw - 2rem)',
                   }}>
                     {/* User Info */}
                     <div style={{ padding: '1rem 1.25rem', borderBottom: '1px solid var(--border-light)' }}>

@@ -87,12 +87,12 @@ export default function Home() {
 
           <div className="hero-visual" style={{ animation: 'fadeInUp 0.8s ease 0.3s both' }}>
             <div style={{
-              width: '340px', height: '340px', borderRadius: '50%',
+              width: 'clamp(220px, 40vw, 340px)', height: 'clamp(220px, 40vw, 340px)', borderRadius: '50%',
               background: 'radial-gradient(circle, rgba(16,185,129,0.15) 0%, rgba(6,182,212,0.08) 50%, transparent 70%)',
               display: 'flex', alignItems: 'center', justifyContent: 'center',
               position: 'relative', animation: 'float 6s ease-in-out infinite',
             }}>
-              <span style={{ fontSize: '8rem' }}>🍱</span>
+              <span style={{ fontSize: 'clamp(4rem, 10vw, 8rem)' }}>🍱</span>
               <div style={{
                 position: 'absolute', top: '10%', right: '5%',
                 animation: 'float 4s ease-in-out infinite 1s', fontSize: '2.5rem',
