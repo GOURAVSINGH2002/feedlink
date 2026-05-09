@@ -1,376 +1,362 @@
-![Next.js](https://img.shields.io/badge/Next.js-Black)
-![Postgres](https://img.shields.io/badge/PostgreSQL-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+#  FeedLink — Smart Food Surplus & Hunger Management Platform
 
-# FeedLink — Smart matching & predictive food management platform
+![Next.js](https://img.shields.io/badge/Next.js-Black?logo=next.js)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Blue?logo=postgresql)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?logo=prisma)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-## Live Demo
-🔗 https://feedlink-omega.vercel.app
+FeedLink is a **full-stack food surplus management platform** designed to reduce food waste by connecting **food donors, NGOs, volunteers, and beneficiaries** in a smart logistics ecosystem.
 
-## Project Overview
-
-**FeedLink** is a high-performance, full-stack Next.js application designed to eliminate food waste by bridging the gap between food donors (hotels, caterers, restaurants) and those in need (NGOs, shelters, beneficiaries).
-
-The platform has transitioned from a mock-data prototype to an **architecture designed for scalable deployment** backed by **Neon PostgreSQL**, featuring logistics, real-time IoT monitoring simulations, and 100% data persistence.
+The platform enables **real-time food donation tracking, volunteer coordination, QR-based verification, NGO matching, and IoT-powered community fridge monitoring**.
 
 ---
 
-## Features
+##  Live Demo
 
-### 1. Donor Dashboard (Smart Logging)
-- **Real-time Persistence:** Every donation is immediately saved to PostgreSQL with specific coordinates.
-- **Rule-based Shelf-Life Engine:** Automatically calculates remaining freshness based on food category, quantity, and storage temperature.
-- **Urgency Tagging:** Dynamically flags food as "Critical," "Moderate," or "Fresh" based on expiration time.
-
-### 2. NGO Command Center
-- **Capacity Management:** Tracks current load vs. maximum capacity in real-time.
-- **Proximity-Based Matching:** NGOs see a "Smart Match" list sorted by geographical distance and storage availability.
-- **One-Click Acceptance:** Seamless claiming of donations with automatic volunteer notification.
-
-### 3. Volunteer Gamification & Logistics
-- **Task Management:** Real-time list of available pickups and deliveries.
-- **Chain of Custody:** Uses unique QR-code identifiers to verify that the right volunteer picked up the right food from the donor.
-- **Leaderboard:** Global points system and "Rankings" based on successful deliveries and total meals served.
-
-### 4. Community Fridge Network (IoT Simulation)
-- **Digital Twin:** Real-time monitoring of community fridges across the city.
-- **IoT Metrics:** Tracks Fill Level, Temperature, and Spoilage Risk.
-- **Refill Coordination:** Notifies donors when a nearby fridge falls below 20% capacity.
-
-### 5. Beneficiary Portal
-- **Meal Reservations:** Vulnerable individuals or smaller shelters can reserve specific meals.
-- **Dietary Matching:** Filters food by dietary needs (Veg, Non-Veg, Nut-Free).
-- **Priority Distribution:** System flags high-priority beneficiaries (e.g., children's shelters) for faster matching.
-
-### 6. Sustainability & CSR Reporting
-- **Carbon Impact:** Calculates CO2 saved by preventing food from ending up in landfills.
-- **SDG Scorecard:** Tracks contribution to UN Sustainable Development Goals (Zero Hunger, Responsible Consumption).
-- **Corporate Tiers:** Allows corporate sponsors to see their meal-matching impact in real-time.
-
-### 7. Disaster Relief Modules
-- **Emergency Camps:** Coordination center for sudden events (Floods, Fires).
-- **Supply Chain:** Real-time tracking of water, medical, and food supplies across emergency camps.
+🔗 **Live Application:**  
+https://feedlink-omega.vercel.app
 
 ---
 
-## Architecture
+##  Problem Statement
 
-### Three-Tier Architecture Overview
+Every day, restaurants, caterers, and hotels waste large amounts of food while many communities still struggle with hunger.
 
-FeedLink follows a **layered architecture pattern** optimized for real-time interactions, data consistency, and serverless scalability:
+FeedLink solves this problem by creating a **smart food redistribution network** where:
 
-`mermaid
+- **Donors** can donate surplus food
+- **NGOs** can accept nearby donations
+- **Volunteers** can manage pickups & deliveries
+- **Beneficiaries** can reserve meals
+
+The system optimizes logistics using **distance-based matching** and **food urgency prioritization**.
+
+---
+
+##  Features
+
+###  Donor Dashboard
+- Real-time donation creation
+- Food quantity & category tracking
+- Shelf-life estimation
+- Urgency tagging (Fresh / Moderate / Critical)
+
+###  NGO Command Center
+- Nearby donation discovery
+- Smart matching system
+- Capacity management
+- One-click donation acceptance
+
+###  Volunteer Logistics
+- Pickup & delivery task management
+- QR-code verification system
+- Chain of custody tracking
+- Volunteer leaderboard system
+
+###  Community Fridge Network (IoT Simulation)
+- Real-time fridge monitoring
+- Fill level tracking
+- Temperature monitoring
+- Spoilage risk prediction
+
+###  Beneficiary Portal
+- Meal reservation system
+- Dietary filtering
+- Priority-based distribution
+
+###  Sustainability Dashboard
+- Carbon footprint reduction tracking
+- Meal impact analytics
+- CSR reporting support
+
+###  Disaster Relief Module
+- Emergency food coordination
+- Relief supply tracking
+- Camp distribution management
+
+---
+
+##  System Architecture
+
+FeedLink follows a **three-tier architecture** optimized for scalability, real-time updates, and serverless deployment.
+
+### Architecture Overview
+
+```mermaid
 graph TB
-    subgraph Presentation[" Presentation Layer (Client)"]
+
+    subgraph Presentation["Presentation Layer (Client)"]
         Web["Web Browser"]
         App["React Components"]
         State["AppContext State Manager"]
     end
 
-    subgraph Business[" Business Logic Layer (Backend)"]
+    subgraph Business["Business Logic Layer (Backend)"]
         Router["Next.js App Router"]
         API["API Route Handlers"]
         Middleware["Validation & Auth Middleware"]
-        AI["Intelligent Engine<br/>- Shelf-Life Calculation<br/>- Urgency Tagging"]
-        Logistics["Logistics Engine<br/>- Haversine Distance<br/>- Proximity Matching"]
+        Engine["Smart Matching Engine"]
+        Logistics["Logistics Engine"]
     end
 
-    subgraph Data[" Data Layer"]
-        Prisma["Prisma ORM<br/>Type-Safe Queries"]
-        Pool["Connection Pool<br/>WebSocket Driver"]
-        DB["Neon PostgreSQL<br/>Serverless Scalable"]
+    subgraph Data["Data Layer"]
+        Prisma["Prisma ORM"]
+        Pool["Connection Pool"]
+        DB["Neon PostgreSQL"]
     end
 
-    Web -->|HTTP/JSON Request| Router
-    App -->|State Updates| State
-    State -->|Fetch Call| Middleware
-    Middleware -->|Route Handler| API
-    API -->|Business Logic| AI
-    API -->|Business Logic| Logistics
-    AI -->|Query via| Prisma
-    Logistics -->|Query via| Prisma
-    Prisma -->|Connection Pool| Pool
-    Pool -->|SQL| DB
-    DB -->|Result Set| Prisma
-    Prisma -->|JSON Response| API
-    API -->|JSON Response| State
-    State -->|Re-render| App
-    App -->|Visual Update| Web
-`
+    Web --> Router
+    App --> State
+    State --> Middleware
+    Middleware --> API
+    API --> Engine
+    API --> Logistics
+    Engine --> Prisma
+    Logistics --> Prisma
+    Prisma --> Pool
+    Pool --> DB
+```
 
-### Component Interaction Map
+---
 
-`mermaid
+##  Component Interaction Flow
+
+```mermaid
 graph LR
-    subgraph Frontend_Components
-        DD["Donor Dashboard"]
-        VC["Volunteer Center"]
-        NGC["NGO Command Center"]
-        BP["Beneficiary Portal"]
-    end
 
-    subgraph Shared_Services
-        Auth["Authentication Service"]
-        Context["AppContext<br/>State Management"]
-        Sync["Sync Middleware"]
-    end
+    DD["Donor Dashboard"]
+    NGO["NGO Command Center"]
+    VOL["Volunteer Center"]
+    BEN["Beneficiary Portal"]
 
-    subgraph Backend_Services
-        DonationAPI["Donation API"]
-        VolunteerAPI["Volunteer API"]
-        MatchingAPI["Matching Engine"]
-        IoTAPI["IoT Monitoring"]
-    end
+    Context["AppContext"]
+    Sync["Sync Middleware"]
 
-    subgraph Database_Tables
-        Donations["donations"]
-        Users["users"]
-        Tasks["volunteer_tasks"]
-        IoTData["iot_sensor_data"]
-        Assignments["assignments"]
-    end
+    API["REST APIs"]
+    DB["PostgreSQL Database"]
 
-    DD -->|Sync| Context
-    VC -->|Sync| Context
-    NGC -->|Sync| Context
-    BP -->|Sync| Context
-    Context -->|Auth| Auth
-    Context -->|Middleware| Sync
-    Sync -->|Fetch| DonationAPI
-    Sync -->|Fetch| VolunteerAPI
-    Sync -->|Fetch| MatchingAPI
-    DonationAPI -->|Query| Donations
-    VolunteerAPI -->|Query| Tasks
-    MatchingAPI -->|Query| Donations
-    MatchingAPI -->|Query| Users
-    IoTAPI -->|Query| IoTData
-`
+    DD --> Context
+    NGO --> Context
+    VOL --> Context
+    BEN --> Context
+
+    Context --> Sync
+    Sync --> API
+    API --> DB
+```
 
 ---
 
-## 💻 Tech Stack
+##  Tech Stack
 
-### Frontend & UI
-- **Framework:** Next.js 16.2.2 (App Router)
-- **Library:** React 19.2.4 (Server Components & Hooks)
-- **Styling:** Vanilla CSS
+### Frontend
+- **Framework:** Next.js (App Router)
+- **Library:** React
+- **Styling:** CSS
 - **Icons:** Lucide React
-- **Animations:** Canvas Confetti & CSS Transitions
+- **Animations:** Canvas Confetti
 
-### Backend & Database
-- **Server:** Next.js Serverless Functions
-- **Database:** Neon PostgreSQL (Scalable Serverless Postgres)
-- **ORM:** Prisma 7.6.0 with Driver Adapters
-- **Authentication:** Custom cryptjs based secure authentication
-- **Communication:** Standard REST API Routes
+### Backend
+- **Runtime:** Next.js Serverless Functions
+- **API:** REST APIs
+- **Authentication:** bcryptjs + JWT
 
-### Utilities & Logistics
-- **Distance Calculation:** Haversine Formula (Spherical Geometry)
+### Database
+- **Database:** Neon PostgreSQL
+- **ORM:** Prisma ORM
+
+### Utilities
+- **Distance Calculation:** Haversine Formula
+- **QR Verification:** Unique QR identifiers
 - **Diagrams:** Mermaid.js
-- **Verification:** QR Code unique ID generation
 
 ---
 
-## 📸 Screenshots
+##  Engineering Highlights
 
-### Login Page
-![Login Page](./public/screenshots/login.png)
+### 1. Optimistic UI Updates
 
-### Dashboard
-![Dashboard](./public/screenshots/dashboard.png)
+Instead of waiting for API responses before updating UI, FeedLink uses an **Optimistic UI pattern**.
 
-### NGO Panel
-![NGO Panel](./public/screenshots/ngo.png)
+This means:
 
-### Volunteer System
-![Volunteer System](./public/screenshots/volunteer.png)
+1. UI updates instantly
+2. Database sync happens in background
+3. Automatic rollback occurs if API fails
 
-### Community Fridge
-![Community Fridge](./public/screenshots/fridge.png)
+This improves perceived performance significantly.
 
----
+Example approach:
 
-## Local Setup Guide
-
-1. **Clone the Project:**
-   ` 
-   git clone https://github.com/psahani3486/feedlink.git
-   cd feedlink
-   `
-2. **Install Dependencies:**
-
-   `
-   npm install
-   `
-
-3. **Environment Setup:**
-   Create a .env file in the root and add your Neon PostgreSQL connection string:
-
-   `env
-   DATABASE_URL="postgresql://user:password@neon-host/dbname?sslmode=require"
-   `
-
-4. **Initialize Prisma:**
-
-   `
-   npx prisma generate
-   `
-
-5. **Run Development Server:**
-
-   `
-   npm run dev
-   `
-
-6. **Build for Production:**
-   `
-   npm run build
-   `
-
----
-
-## Engineering Challenges
-
-### Data Flow: Deep Dive
-
-#### **1. Request Phase (Client → Server)**
-- User action triggers → React Component → AppContext.dispatch()
-- Immediate **optimistic state update** in React
-- Simultaneous async etch() call to /api/donations/accept (non-blocking)
-
-#### **2. Processing Phase (Server)**
-- Next.js Route Handler validates JWT token
-- Prisma executes database transaction:
-  - Read current donation status (prevent double-acceptance)
-  - Update donation → status: 'assigned'
-  - Create volunteer task record
-  - Log audit trail
-- All within a **transaction boundary** for ACID guarantees
-
-#### **3. Response Phase (Server → Client)**
-- API responds with updated data
-- React merges response with existing state
-- If backend fails → automatic **rollback** to previous state
-- UI remains consistent regardless of network outcome
-
-### The "Optimistic UI Sync" Pattern (Key Mechanism)
-
-**Problem:** Traditional request-response cycles create perceptible delays in donation management (button clicks feel sluggish).
-
-**Solution:** Implemented a **Client-Side Sync Middleware** in AppContext.js:
-
-`javascript
-// Conceptual pseudocode
+```javascript
 dispatchWithSync(action) {
-  // 1. Immediate UI update
   setAppState(reducer(currentState, action));
 
-  // 2. Async persistence (fire-and-forget)
   fetch('/api/donations/' + action.id, {
     method: 'PATCH',
     body: JSON.stringify(action.payload)
   })
   .catch(() => {
-    // 3. Rollback on failure
     setAppState(reducer(appState, { type: 'UNDO' }));
   });
 }
-`
+```
 
-**Benefits:**
-- UI feels responsive instantly
-- Background persistence ensures data durability
-- Automatic rollback prevents inconsistent states
+---
 
-### Connection Pool & Serverless Optimization
+### 2. Smart Matching Logic
 
-**Challenge:** Vercel/Serverless functions create new database connections on each invocation, exhausting Neon's connection pool.
+FeedLink uses the **Haversine Formula** to calculate distance between donors and NGOs.
 
-**Solution:**
-- Implemented **Prisma Client Singleton Pattern** to reuse the same Prisma instance
-- Integrated @neondatabase/serverless driver adapter for WebSocket-based connections
-- Connection pooling prevents "Too many connections" errors under high load
+Matching is based on:
 
-`javascript
-// lib/prisma.js - Singleton Pattern
+- Distance
+- NGO capacity
+- Food urgency
+- Storage capability
+
+This ensures efficient food redistribution.
+
+---
+
+### 3. Serverless Database Optimization
+
+To avoid database connection exhaustion on Vercel:
+
+- Prisma Client Singleton Pattern is used
+- Neon Serverless Driver is integrated
+- Connection pooling is enabled
+
+Example:
+
+```javascript
 const globalForPrisma = global || {};
 
 export const prisma =
   globalForPrisma.prisma ||
-  new PrismaClient({
-    adapter: new PrismaNeon(new Pool({ connectionString: DATABASE_URL })),
-  });
+  new PrismaClient();
 
 if (process.env.NODE_ENV !== "production") {
   globalForPrisma.prisma = prisma;
 }
-`
-
-### Database Schema (Simplified View)
-
-`sql
--- Core Donation Pipeline
-CREATE TABLE donations (
-  id UUID PRIMARY KEY,
-  donor_id UUID REFERENCES users(id),
-  category TEXT,                    -- 'cooked', 'packed', 'raw'
-  quantity INT,
-  prepared_at TIMESTAMP,
-  expires_at TIMESTAMP,             -- System calculated
-  status ENUM('available', 'assigned', 'in-transit', 'delivered', 'spoiled'),
-  urgency ENUM('fresh', 'moderate', 'critical'),
-  lat FLOAT, lng FLOAT,             -- For haversine queries
-  created_at TIMESTAMP
-);
-
--- Logistics Chain of Custody
-CREATE TABLE volunteer_tasks (
-  id UUID PRIMARY KEY,
-  donation_id UUID REFERENCES donations(id),
-  volunteer_id UUID REFERENCES users(id),
-  ngo_id UUID REFERENCES users(id),
-  status ENUM('assigned', 'picked-up', 'in-transit', 'delivered'),
-  pickup_qr_verified BOOLEAN,
-  delivery_qr_verified BOOLEAN,
-  created_at TIMESTAMP
-);
-
--- Real-time IoT Monitoring
-CREATE TABLE iot_sensor_data (
-  id UUID PRIMARY KEY,
-  fridge_id UUID,
-  fill_level INT,                   -- 0-100%
-  temperature FLOAT,
-  spoilage_risk FLOAT,              -- Algorithm calculated
-  last_refill TIMESTAMP,
-  recorded_at TIMESTAMP
-);
-`
-
-### Scalability Architecture
-
-#### **Horizontal Scaling Strategy**
-1. **Frontend:** Deployed on Vercel Edge Network (global CDN)
-2. **Backend:** Auto-scaling serverless functions on Vercel
-3. **Database:** Neon PostgreSQL with read replicas for high-traffic queries
-4. **Caching:** Component-level caching + ISR (Incremental Static Regeneration)
-
-#### **Performance Optimizations**
-- **Query Optimization:** Prisma query batching + indexed coordinates for haversine searches
-- **Connection Pooling:** PrismaNeon WebSocket adapter prevents connection exhaustion
-- **State Deduplication:** React Context prevents prop-drilling, reduces re-renders
-- **Bundle Size:** Next.js code splitting ensures <50KB critical JS
-
-#### **Failure Resilience**
-- **Optimistic Updates:** UI remains functional during network latency
-- **Transaction Rollback:** Database-level ACID guarantees prevent partial updates
-- **Error Boundaries:** React error boundaries contain failures to specific components
-- **Retry Logic:** Exponential backoff for failed API calls with max 3 retries
+```
 
 ---
 
-## Future Roadmap
+##  Database Schema (Simplified)
 
-- **AI Image Verification:** Using Computer Vision to verify food quality via photo uploads.
-- **Live Traffic Maps:** Integrating MapBox for real-time traffic-aware volunteer routing.
-- **WhatsApp Integration:** Instant volunteer notifications via Twilio/WhatsApp API.
+```sql
+CREATE TABLE donations (
+  id UUID PRIMARY KEY,
+  donor_id UUID,
+  category TEXT,
+  quantity INT,
+  expires_at TIMESTAMP,
+  status TEXT,
+  urgency TEXT,
+  lat FLOAT,
+  lng FLOAT
+);
+
+CREATE TABLE volunteer_tasks (
+  id UUID PRIMARY KEY,
+  donation_id UUID,
+  volunteer_id UUID,
+  ngo_id UUID,
+  status TEXT
+);
+
+CREATE TABLE iot_sensor_data (
+  id UUID PRIMARY KEY,
+  fridge_id UUID,
+  fill_level INT,
+  temperature FLOAT,
+  spoilage_risk FLOAT
+);
+```
+
+---
+
+##  Screenshots
+
+Add your project screenshots here.
+
+```md
+![Dashboard](./public/dashboard.png)
+![NGO Panel](./public/ngo-dashboard.png)
+![Volunteer Panel](./public/volunteer.png)
+```
+
+---
+
+##  Local Setup
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/psahani3486/feedlink.git
+cd feedlink
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Configure Environment Variables
+
+Create a `.env` file:
+
+```env
+DATABASE_URL="your_database_url"
+JWT_SECRET="your_secret"
+```
+
+### 4. Generate Prisma Client
+
+```bash
+npx prisma generate
+```
+
+### 5. Run Development Server
+
+```bash
+npm run dev
+```
+
+### 6. Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+##  Scalability Features
+
+- Serverless architecture
+- Prisma query optimization
+- Database connection pooling
+- Component-level state management
+- Automatic retry mechanisms
+- Error boundaries
+
+---
+
+##  Future Enhancements
+
+- AI-based food quality verification
+- Real-time traffic routing
+- WhatsApp notifications
+- Smart demand prediction
+- Live map tracking
+
+---
+
+##  Author
+
+**Pankaj Sahani**
+
+GitHub:  
+https://github.com/psahani3486
