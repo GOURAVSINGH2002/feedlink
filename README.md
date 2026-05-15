@@ -14,7 +14,7 @@ The platform enables **real-time food donation tracking, volunteer coordination,
 ##  Live Demo
 
 🔗 **Live Application:**  
-https://feedlink-omega.vercel.app
+https://www.feedlinkx.tech/
 
 ---
 
