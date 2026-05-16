@@ -159,16 +159,16 @@ model DisasterEvent {
 }
 
 model EmergencyCamp {
-  id           String @id
-  name         String
-  eventId      String
-  lat          Float
-  lng          Float
-  capacity     Int
-  current      Int
-  mealsToday   Int
-  status       String
-  supplyWater  Int
-  supplyFood   Int
+  id            String @id
+  name          String
+  eventId       String
+  lat           Float
+  lng           Float
+  capacity      Int
+  current       Int
+  mealsToday    Int
+  status        String
+  supplyWater   Int
+  supplyFood    Int
   supplyMedical Int
 }
