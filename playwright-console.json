@@ -1,0 +1,375 @@
+{
+  "console": [
+    {
+      "type": "info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "location": {
+        "url": "http://localhost:3000/_next/static/chunks/0ktf_next_dist_075ky4t._.js",
+        "line": 2431,
+        "column": 27,
+        "lineNumber": 2431,
+        "columnNumber": 27
+      },
+      "args": [
+        "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools",
+        "font-weight:bold"
+      ]
+    },
+    {
+      "type": "log",
+      "text": "[HMR] connected",
+      "location": {
+        "url": "http://localhost:3000/_next/static/chunks/0ktf_next_dist_075ky4t._.js",
+        "line": 2431,
+        "column": 27,
+        "lineNumber": 2431,
+        "columnNumber": 27
+      },
+      "args": [
+        "[HMR] connected"
+      ]
+    }
+  ],
+  "network": [
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/auth",
+      "postData": null
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/Downloads_a_app_globals_11w5q8a.css",
+      "postData": null
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_12xk5wl._.js",
+      "postData": null
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/0ktf_next_dist_compiled_next-devtools_index_1377g9-.js",
+      "postData": null
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/0ktf_next_dist_compiled_react-dom_0ipbi09._.js",
+      "postData": null
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/0ktf_next_dist_compiled_react-server-dom-turbopack_12qpetp._.js",
+      "postData": null
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/0ktf_next_dist_compiled_0a5u-xs._.js",
+      "postData": null
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/0ktf_next_dist_client_0q5uo2q._.js",
+      "postData": null
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/0ktf_next_dist_075ky4t._.js",
+      "postData": null
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/0ktf_%40swc_helpers_cjs_11u79lu._.js",
+      "postData": null
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/Downloads_a_0rqeker._.js",
+      "postData": null
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/turbopack-Downloads_a_047lk6d._.js",
+      "postData": null
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/0ktf_next_0xomoor._.js",
+      "postData": null
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/Downloads_a_0114lkf._.js",
+      "postData": null
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/Downloads_a_app_layout_0.351v~.js",
+      "postData": null
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/Downloads_a_app_auth_page_0f2zi0t.js",
+      "postData": null
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/Downloads_a_app_auth_page_0c9jpyh.js",
+      "postData": null
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/0ktf_next_dist_client_components_builtin_global-error_0c9jpyh.js",
+      "postData": null
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
+      "postData": null
+    },
+    {
+      "type": "response",
+      "url": "http://localhost:3000/auth",
+      "status": 200,
+      "body": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"stylesheet\" href=\"/_next/static/chunks/Downloads_a_app_globals_11w5q8a.css\" data-precedence=\"next_static/chunks/Downloads_a_app_globals_11w5q8a.css\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_12xk5wl._.js\"/><script src=\"/_next/static/chunks/0ktf_next_dist_compiled_next-devtools_index_1377g9-.js\" async=\"\"></script><script src=\"/_next/static/chunks/0ktf_next_dist_compiled_react-dom_0ipbi09._.js\" async=\"\"></script><script src=\"/_next/static/chunks/0ktf_next_dist_compiled_react-server-dom-turbopack_12qpetp._.js\" async=\"\"></script><script src=\"/_next/static/chunks/0ktf_next_dist_compiled_0a5u-xs._.js\" async=\"\"></script><script src=\"/_next/static/chunks/0ktf_next_dist_client_0q5uo2q._.js\" async=\"\"></script><script src=\"/_next/static/chunks/0ktf_next_dist_075ky4t._.js\" async=\"\"></script><script src=\"/_next/static/chunks/0ktf_%40swc_helpers_cjs_11u79lu._.js\" async=\"\"></script><script src=\"/_next/static/chunks/Downloads_a_0rqeker._.js\" async=\"\"></script><script src=\"/_next/static/chunks/turbopack-Downloads_a_047lk6d._.js\" async=\"\"></script><script src=\"/_next/static/chunks/0ktf_next_0xomoor._.js\" async=\"\"></script><script src=\"/_next/static/chunks/Downloads_a_0114lkf._.js\" async=\"\"></script><script src=\"/_next/static/chunks/Downloads_a_app_layout_0.351v~.js\" async=\"\"></script><script src=\"/_next/static/chunks/Downloads_a_app_auth_page_0f2zi0t.js\" async=\"\"></script><script src=\"/_next/static/chunks/Downloads_a_app_auth_page_0c9jpyh.js\" async=\"\"></script><script src=\"/_next/static/chunks/0ktf_next_dist_client_components_builtin_global-error_0c9jpyh.js\" async=\"\"></script><link rel=\"preload\" href=\"https://unpkg.com/leaflet@1.9.4/dist/leaflet.css\" as=\"style\"/><link rel=\"icon\" href=\"/favicon.ico\"/><title>FeedLink — Connecting Food to People Who Need It</t...[truncated]"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800;900&display=swap",
+      "postData": null
+    },
+    {
+      "type": "response",
+      "url": "http://localhost:3000/_next/static/chunks/Downloads_a_app_globals_11w5q8a.css",
+      "status": 200,
+      "body": "@import \"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800;900&display=swap\";\n/* [project]/Downloads/a/app/globals.css [app-client] (css) */\n:root {\n  --primary: #00ff9f;\n  --primary-light: #6dffca;\n  --primary-dark: #00d685;\n  --primary-glow: #00ff9f4d;\n  --primary-gradient: linear-gradient(135deg, #00ff9f 0%, #00b8ff 50%, #6366f1 100%);\n  --secondary-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);\n  --accent: #cf0;\n  --accent-light: #e5ff80;\n  --accent-dark: #99bf00;\n  --accent-glow: #ccff0040;\n  --success: #00ff9f;\n  --warning: #fc0;\n  --danger: #f36;\n  --info: #00b8ff;\n  --bg-primary: #030712;\n  --bg-secondary: #080c18;\n  --bg-card: #0f172a;\n  --bg-card-hover: #1e293b;\n  --bg-elevated: #1e293b;\n  --bg-glass: #0f172aa6;\n  --bg-glass-bright: #ffffff08;\n  --text-primary: #f8fafc;\n  --text-secondary: #94a3b8;\n  --text-muted: #64748b;\n  --text-accent: #00ff9f;\n  --border: #ffffff14;\n  --border-light: #ffffff0a;\n  --border-accent: #00ff9f4d;\n  --border-glass: #ffffff1a;\n  --shadow-sm: 0 2px 4px #0006;\n  --shadow-md: 0 8px 24px #00000080;\n  --shadow-lg: 0 16px 48px #0009;\n  --shadow-xl: 0 32px 80px #000000b3;\n  --shadow-glow: 0 0 40px #00ff9f26;\n  --shadow-glow-accent: 0 0 40px #ccff001f;\n  --space-xs: .25rem;\n  --space-sm: .5rem;\n  --space-md: 1rem;\n  --space-lg: 1.5rem;\n  --space-xl: 2rem;\n  --space-2xl: 3.5rem;\n  --space-3xl: 5rem;\n  --space-4xl: 8rem;\n  --radius-sm: 8px;\n  --radius-md: 14px;\n  --radius-lg: 20px;\n  --radius-xl: 32px;\n  --radius-full: 9999px;\n  --font-body: \"Inter\", -apple-system, sans-serif;\n  --font-display: \"Outfit\", \"Inter\", sans-serif;\n  --transition-fast: .15s cubic-bezier(.23, 1, .32, 1);\n  --transition-base: .4s cubic-bezier(.23, 1, .32, 1);\n  --transition-slow: .8s cubic-bezier(.23, 1, .32, 1);\n  --transition-spring: .6s cubic-bezier(.34, 1.56, .64, 1);\n  --z-dropdown: 100;\n  --z-modal: 200;\n  --z-toast: 300;\n  --z-navbar: 50;\n}\n\n*, :before, :after {\n  box-sizi...[truncated]"
+    },
+    {
+      "type": "response",
+      "url": "http://localhost:3000/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_12xk5wl._.js",
+      "status": 200,
+      "body": "(globalThis[\"TURBOPACK\"] || (globalThis[\"TURBOPACK\"] = [])).push([typeof document === \"object\" ? document.currentScript : undefined,\n\"[turbopack]/browser/dev/hmr-client/hmr-client.ts [app-client] (ecmascript, async loader)\", ((__turbopack_context__) => {\n\n__turbopack_context__.v((parentImport) => {\n    return Promise.all([\n  \"static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_0yjw1oe._.js\",\n  \"static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_00bg12-._.js\"\n].map((chunk) => __turbopack_context__.l(chunk))).then(() => {\n        return parentImport(\"[turbopack]/browser/dev/hmr-client/hmr-client.ts [app-client] (ecmascript)\");\n    });\n});\n}),\n]);"
+    },
+    {
+      "type": "response",
+      "url": "http://localhost:3000/_next/static/chunks/0ktf_next_dist_compiled_0a5u-xs._.js",
+      "status": 200,
+      "body": "(globalThis[\"TURBOPACK\"] || (globalThis[\"TURBOPACK\"] = [])).push([typeof document === \"object\" ? document.currentScript : undefined,\n\"[project]/Downloads/a/node_modules/next/dist/compiled/process/browser.js [app-client] (ecmascript)\", ((__turbopack_context__, module, exports) => {\n\n(function() {\n    var e = {\n        229: function(e) {\n            var t = e.exports = {};\n            var r;\n            var n;\n            function defaultSetTimout() {\n                throw new Error(\"setTimeout has not been defined\");\n            }\n            function defaultClearTimeout() {\n                throw new Error(\"clearTimeout has not been defined\");\n            }\n            (function() {\n                try {\n                    if (typeof setTimeout === \"function\") {\n                        r = setTimeout;\n                    } else {\n                        r = defaultSetTimout;\n                    }\n                } catch (e) {\n                    r = defaultSetTimout;\n                }\n                try {\n                    if (typeof clearTimeout === \"function\") {\n                        n = clearTimeout;\n                    } else {\n                        n = defaultClearTimeout;\n                    }\n                } catch (e) {\n                    n = defaultClearTimeout;\n                }\n            })();\n            function runTimeout(e) {\n                if (r === setTimeout) {\n                    return setTimeout(e, 0);\n                }\n                if ((r === defaultSetTimout || !r) && setTimeout) {\n                    r = setTimeout;\n                    return setTimeout(e, 0);\n                }\n                try {\n                    return r(e, 0);\n                } catch (t) {\n                    try {\n                        return r.call(null, e, 0);\n                    } catch (t) {\n                        return r.call(this, e, 0);\n                    }\n                }\n            }\n            function runClearTimeout(e) {\n          ...[truncated]"
+    },
+    {
+      "type": "response",
+      "url": "http://localhost:3000/_next/static/chunks/0ktf_next_dist_compiled_react-server-dom-turbopack_12qpetp._.js",
+      "status": 200,
+      "body": "(globalThis[\"TURBOPACK\"] || (globalThis[\"TURBOPACK\"] = [])).push([typeof document === \"object\" ? document.currentScript : undefined,\n\"[project]/Downloads/a/node_modules/next/dist/compiled/react-server-dom-turbopack/cjs/react-server-dom-turbopack-client.browser.development.js [app-client] (ecmascript)\", ((__turbopack_context__, module, exports) => {\n\"use strict\";\n\nvar __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$a$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i(\"[project]/Downloads/a/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)\");\n/**\n * @license React\n * react-server-dom-turbopack-client.browser.development.js\n *\n * Copyright (c) Meta Platforms, Inc. and affiliates.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */ \"use strict\";\n\"production\" !== (\"TURBOPACK compile-time value\", \"development\") && function() {\n    function checkEvalAvailabilityOnceDev() {\n        if (!hasConfirmedEval) {\n            hasConfirmedEval = !0;\n            try {\n                (0, eval)(\"null\");\n            } catch ($jscomp$unused$catch) {\n                console.error(\"eval() is not supported in this environment. If this page was served with a `Content-Security-Policy` header, make sure that `unsafe-eval` is included. React requires eval() in development mode for various debugging features like reconstructing callstacks from a different environment.\\nReact will never use eval() in production mode\");\n            }\n        }\n    }\n    function resolveClientReference(bundlerConfig, metadata) {\n        if (bundlerConfig) {\n            var moduleExports = bundlerConfig[metadata[0]];\n            if (bundlerConfig = moduleExports && moduleExports[metadata[2]]) moduleExports = bundlerConfig.name;\n            else {\n                bundlerConfig = moduleExports &&...[truncated]"
+    },
+    {
+      "type": "response",
+      "url": "http://localhost:3000/_next/static/chunks/Downloads_a_0rqeker._.js",
+      "status": 200,
+      "body": "(globalThis[\"TURBOPACK_CHUNK_LISTS\"] || (globalThis[\"TURBOPACK_CHUNK_LISTS\"] = [])).push({\n    script: typeof document === \"object\" ? document.currentScript : undefined,\n    chunks: [\"static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_12xk5wl._.js\",\"static/chunks/0ktf_next_dist_compiled_next-devtools_index_1377g9-.js\",\"static/chunks/0ktf_next_dist_compiled_react-dom_0ipbi09._.js\",\"static/chunks/0ktf_next_dist_compiled_react-server-dom-turbopack_12qpetp._.js\",\"static/chunks/0ktf_next_dist_compiled_0a5u-xs._.js\",\"static/chunks/0ktf_next_dist_client_0q5uo2q._.js\",\"static/chunks/0ktf_next_dist_075ky4t._.js\",\"static/chunks/0ktf_@swc_helpers_cjs_11u79lu._.js\"],\n    source: \"entry\"\n});\n"
+    },
+    {
+      "type": "response",
+      "url": "http://localhost:3000/_next/static/chunks/0ktf_%40swc_helpers_cjs_11u79lu._.js",
+      "status": 200,
+      "body": "(globalThis[\"TURBOPACK\"] || (globalThis[\"TURBOPACK\"] = [])).push([typeof document === \"object\" ? document.currentScript : undefined,\n\"[project]/Downloads/a/node_modules/@swc/helpers/cjs/_interop_require_default.cjs [app-client] (ecmascript)\", ((__turbopack_context__, module, exports) => {\n\"use strict\";\n\nfunction _interop_require_default(obj) {\n    return obj && obj.__esModule ? obj : {\n        default: obj\n    };\n}\nexports._ = _interop_require_default;\n}),\n\"[project]/Downloads/a/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs [app-client] (ecmascript)\", ((__turbopack_context__, module, exports) => {\n\"use strict\";\n\nfunction _getRequireWildcardCache(nodeInterop) {\n    if (typeof WeakMap !== \"function\") return null;\n    var cacheBabelInterop = new WeakMap();\n    var cacheNodeInterop = new WeakMap();\n    return (_getRequireWildcardCache = function(nodeInterop) {\n        return nodeInterop ? cacheNodeInterop : cacheBabelInterop;\n    })(nodeInterop);\n}\nfunction _interop_require_wildcard(obj, nodeInterop) {\n    if (!nodeInterop && obj && obj.__esModule) return obj;\n    if (obj === null || typeof obj !== \"object\" && typeof obj !== \"function\") return {\n        default: obj\n    };\n    var cache = _getRequireWildcardCache(nodeInterop);\n    if (cache && cache.has(obj)) return cache.get(obj);\n    var newObj = {\n        __proto__: null\n    };\n    var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;\n    for(var key in obj){\n        if (key !== \"default\" && Object.prototype.hasOwnProperty.call(obj, key)) {\n            var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;\n            if (desc && (desc.get || desc.set)) Object.defineProperty(newObj, key, desc);\n            else newObj[key] = obj[key];\n        }\n    }\n    newObj.default = obj;\n    if (cache) cache.set(obj, newObj);\n    return newObj;\n}\nexports._ = _interop_require_wildcard;\n}),\n]);\n\n//# sourceMappingURL=0ktf_%40swc_helpers_cjs_11u79lu._.js.map"
+    },
+    {
+      "type": "response",
+      "url": "http://localhost:3000/_next/static/chunks/0ktf_next_dist_075ky4t._.js",
+      "status": 200,
+      "body": "(globalThis[\"TURBOPACK\"] || (globalThis[\"TURBOPACK\"] = [])).push([typeof document === \"object\" ? document.currentScript : undefined,\n\"[project]/Downloads/a/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)\", ((__turbopack_context__, module, exports) => {\n\"use strict\";\n\nvar _global_process, _global_process1;\nmodule.exports = ((_global_process = /*TURBOPACK member replacement*/ __turbopack_context__.g.process) == null ? void 0 : _global_process.env) && typeof ((_global_process1 = /*TURBOPACK member replacement*/ __turbopack_context__.g.process) == null ? void 0 : _global_process1.env) === 'object' ? /*TURBOPACK member replacement*/ __turbopack_context__.g.process : __turbopack_context__.r(\"[project]/Downloads/a/node_modules/next/dist/compiled/process/browser.js [app-client] (ecmascript)\");\n}),\n\"[project]/Downloads/a/node_modules/next/dist/build/polyfills/polyfill-module.js [app-client] (ecmascript)\", ((__turbopack_context__, module, exports) => {\n\n\"trimStart\" in String.prototype || (String.prototype.trimStart = String.prototype.trimLeft), \"trimEnd\" in String.prototype || (String.prototype.trimEnd = String.prototype.trimRight), \"description\" in Symbol.prototype || Object.defineProperty(Symbol.prototype, \"description\", {\n    configurable: !0,\n    get: function() {\n        var t = /\\((.*)\\)/.exec(this.toString());\n        return t ? t[1] : void 0;\n    }\n}), Array.prototype.flat || (Array.prototype.flat = function(t, r) {\n    return r = this.concat.apply([], this), t > 1 && r.some(Array.isArray) ? r.flat(t - 1) : r;\n}, Array.prototype.flatMap = function(t, r) {\n    return this.map(t, r).flat();\n}), Promise.prototype.finally || (Promise.prototype.finally = function(t) {\n    if (\"function\" != typeof t) return this.then(t, t);\n    var r = this.constructor || Promise;\n    return this.then(function(n) {\n        return r.resolve(t()).then(function() {\n            return n;\n        });\n    }, function(n) {\n        return r.resolve(t()).then(function() {...[truncated]"
+    },
+    {
+      "type": "response",
+      "url": "http://localhost:3000/_next/static/chunks/turbopack-Downloads_a_047lk6d._.js",
+      "status": 200,
+      "body": "(globalThis[\"TURBOPACK\"] || (globalThis[\"TURBOPACK\"] = [])).push([\n    typeof document === \"object\" ? document.currentScript : undefined,\n    {\"otherChunks\":[\"static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_12xk5wl._.js\",\"static/chunks/0ktf_next_dist_compiled_next-devtools_index_1377g9-.js\",\"static/chunks/0ktf_next_dist_compiled_react-dom_0ipbi09._.js\",\"static/chunks/0ktf_next_dist_compiled_react-server-dom-turbopack_12qpetp._.js\",\"static/chunks/0ktf_next_dist_compiled_0a5u-xs._.js\",\"static/chunks/0ktf_next_dist_client_0q5uo2q._.js\",\"static/chunks/0ktf_next_dist_075ky4t._.js\",\"static/chunks/0ktf_@swc_helpers_cjs_11u79lu._.js\"],\"runtimeModuleIds\":[\"[project]/Downloads/a/node_modules/next/dist/compiled/@next/react-refresh-utils/dist/runtime.js [app-client] (ecmascript)\",\"[project]/Downloads/a/node_modules/next/dist/client/app-next-turbopack.js [app-client] (ecmascript)\"]}\n]);\n(() => {\nif (!Array.isArray(globalThis[\"TURBOPACK\"])) {\n    return;\n}\n\nconst CHUNK_BASE_PATH = \"/_next/\";\nconst RELATIVE_ROOT_PATH = \"/ROOT\";\nconst RUNTIME_PUBLIC_PATH = \"/_next/\";\nconst ASSET_SUFFIX = getAssetSuffixFromScriptSrc();\nconst WORKER_FORWARDED_GLOBALS = [\"NEXT_DEPLOYMENT_ID\",\"NEXT_CLIENT_ASSET_SUFFIX\"];\n/**\n * This file contains runtime types and functions that are shared between all\n * TurboPack ECMAScript runtimes.\n *\n * It will be prepended to the runtime code of each runtime.\n */ /* eslint-disable @typescript-eslint/no-unused-vars */ /// <reference path=\"./runtime-types.d.ts\" />\n/**\n * Describes why a module was instantiated.\n * Shared between browser and Node.js runtimes.\n */ var SourceType = /*#__PURE__*/ function(SourceType) {\n    /**\n   * The module was instantiated because it was included in an evaluated chunk's\n   * runtime.\n   * SourceData is a ChunkPath.\n   */ SourceType[SourceType[\"Runtime\"] = 0] = \"Runtime\";\n    /**\n   * The module was instantiated because a parent module imported it.\n   * SourceData is a ModuleId.\n   */ SourceType[SourceType[\"Parent\"] = 1...[truncated]"
+    },
+    {
+      "type": "response",
+      "url": "http://localhost:3000/_next/static/chunks/Downloads_a_0114lkf._.js",
+      "status": 200,
+      "body": "(globalThis[\"TURBOPACK\"] || (globalThis[\"TURBOPACK\"] = [])).push([typeof document === \"object\" ? document.currentScript : undefined,\n\"[project]/Downloads/a/data/mockData.js [app-client] (ecmascript)\", ((__turbopack_context__) => {\n\"use strict\";\n\n// FeedLink — All-India Mock Data\n__turbopack_context__.s([\n    \"ACTIVITY_FEED_TEMPLATES\",\n    ()=>ACTIVITY_FEED_TEMPLATES,\n    \"ANALYTICS\",\n    ()=>ANALYTICS,\n    \"CITIES\",\n    ()=>CITIES,\n    \"DONORS\",\n    ()=>DONORS,\n    \"FOOD_CATEGORIES\",\n    ()=>FOOD_CATEGORIES,\n    \"GAMIFICATION_BADGES\",\n    ()=>GAMIFICATION_BADGES,\n    \"NGOS\",\n    ()=>NGOS,\n    \"NOTIFICATIONS\",\n    ()=>NOTIFICATIONS,\n    \"VOLUNTEERS\",\n    ()=>VOLUNTEERS,\n    \"generateActivityFeed\",\n    ()=>generateActivityFeed,\n    \"generateDonations\",\n    ()=>generateDonations\n]);\nconst CITIES = [\n    {\n        name: 'Delhi',\n        lat: 28.6139,\n        lng: 77.2090\n    },\n    {\n        name: 'Mumbai',\n        lat: 19.0760,\n        lng: 72.8777\n    },\n    {\n        name: 'Bangalore',\n        lat: 12.9716,\n        lng: 77.5946\n    },\n    {\n        name: 'Chennai',\n        lat: 13.0827,\n        lng: 80.2707\n    },\n    {\n        name: 'Kolkata',\n        lat: 22.5726,\n        lng: 88.3639\n    },\n    {\n        name: 'Hyderabad',\n        lat: 17.3850,\n        lng: 78.4867\n    },\n    {\n        name: 'Pune',\n        lat: 18.5204,\n        lng: 73.8567\n    },\n    {\n        name: 'Ahmedabad',\n        lat: 23.0225,\n        lng: 72.5714\n    },\n    {\n        name: 'Jaipur',\n        lat: 26.9124,\n        lng: 75.7873\n    },\n    {\n        name: 'Lucknow',\n        lat: 26.8467,\n        lng: 80.9462\n    },\n    {\n        name: 'Chandigarh',\n        lat: 30.7333,\n        lng: 76.7794\n    },\n    {\n        name: 'Bhopal',\n        lat: 23.2599,\n        lng: 77.4126\n    },\n    {\n        name: 'Kochi',\n        lat: 9.9312,\n        lng: 76.2673\n    },\n    {\n        name: 'Guwahati',\n        lat: 26.1445,\n        lng: 91.7362\n    },\n    {\n        name: 'Patna',\n        lat: 25.6093,\n        ...[truncated]"
+    },
+    {
+      "type": "response",
+      "url": "http://localhost:3000/_next/static/chunks/Downloads_a_app_layout_0.351v~.js",
+      "status": 200,
+      "body": "(globalThis[\"TURBOPACK_CHUNK_LISTS\"] || (globalThis[\"TURBOPACK_CHUNK_LISTS\"] = [])).push({\n    script: typeof document === \"object\" ? document.currentScript : undefined,\n    chunks: [\"static/chunks/Downloads_a_app_globals_11w5q8a.css\",\"static/chunks/0ktf_next_0xomoor._.js\",\"static/chunks/Downloads_a_0114lkf._.js\"],\n    source: \"dynamic\"\n});\n"
+    },
+    {
+      "type": "response",
+      "url": "http://localhost:3000/_next/static/chunks/0ktf_next_0xomoor._.js",
+      "status": 200,
+      "body": "(globalThis[\"TURBOPACK\"] || (globalThis[\"TURBOPACK\"] = [])).push([typeof document === \"object\" ? document.currentScript : undefined,\n\"[project]/Downloads/a/node_modules/next/dist/compiled/react/cjs/react-jsx-dev-runtime.development.js [app-client] (ecmascript)\", ((__turbopack_context__, module, exports) => {\n\"use strict\";\n\nvar __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$a$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i(\"[project]/Downloads/a/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)\");\n/**\n * @license React\n * react-jsx-dev-runtime.development.js\n *\n * Copyright (c) Meta Platforms, Inc. and affiliates.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */ \"use strict\";\n\"production\" !== (\"TURBOPACK compile-time value\", \"development\") && function() {\n    function getComponentNameFromType(type) {\n        if (null == type) return null;\n        if (\"function\" === typeof type) return type.$$typeof === REACT_CLIENT_REFERENCE ? null : type.displayName || type.name || null;\n        if (\"string\" === typeof type) return type;\n        switch(type){\n            case REACT_FRAGMENT_TYPE:\n                return \"Fragment\";\n            case REACT_PROFILER_TYPE:\n                return \"Profiler\";\n            case REACT_STRICT_MODE_TYPE:\n                return \"StrictMode\";\n            case REACT_SUSPENSE_TYPE:\n                return \"Suspense\";\n            case REACT_SUSPENSE_LIST_TYPE:\n                return \"SuspenseList\";\n            case REACT_ACTIVITY_TYPE:\n                return \"Activity\";\n            case REACT_VIEW_TRANSITION_TYPE:\n                return \"ViewTransition\";\n        }\n        if (\"object\" === typeof type) switch(\"number\" === typeof type.tag && console.error(\"Received an unexpected object in getComponentNameFromType(). This is ...[truncated]"
+    },
+    {
+      "type": "response",
+      "url": "http://localhost:3000/_next/static/chunks/Downloads_a_app_auth_page_0f2zi0t.js",
+      "status": 200,
+      "body": "(globalThis[\"TURBOPACK\"] || (globalThis[\"TURBOPACK\"] = [])).push([typeof document === \"object\" ? document.currentScript : undefined,\n\"[project]/Downloads/a/app/auth/page.js [app-client] (ecmascript)\", ((__turbopack_context__) => {\n\"use strict\";\n\n__turbopack_context__.s([\n    \"default\",\n    ()=>AuthPage\n]);\nvar __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$a$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i(\"[project]/Downloads/a/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)\");\nvar __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$a$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i(\"[project]/Downloads/a/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)\");\nvar __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$a$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i(\"[project]/Downloads/a/node_modules/next/navigation.js [app-client] (ecmascript)\");\nvar __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$a$2f$context$2f$AppContext$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i(\"[project]/Downloads/a/context/AppContext.js [app-client] (ecmascript)\");\n;\nvar _s = __turbopack_context__.k.signature();\n'use client';\n;\n;\n;\nconst ROLES = [\n    {\n        value: 'donor',\n        label: 'Donor / Restaurant',\n        icon: '🍽️',\n        desc: 'Donate surplus food from your kitchen',\n        color: '#10b981'\n    },\n    {\n        value: 'ngo',\n        label: 'NGO',\n        icon: '🏥',\n        desc: 'Manage food distribution to communities',\n        color: '#3b82f6'\n    },\n    {\n        value: 'volunteer',\n        label: 'Volunteer',\n        icon: '🚴',\n        desc: 'Pick up & deliver food to those ...[truncated]"
+    },
+    {
+      "type": "response",
+      "url": "http://localhost:3000/_next/static/chunks/Downloads_a_app_auth_page_0c9jpyh.js",
+      "status": 200,
+      "body": "(globalThis[\"TURBOPACK_CHUNK_LISTS\"] || (globalThis[\"TURBOPACK_CHUNK_LISTS\"] = [])).push({\n    script: typeof document === \"object\" ? document.currentScript : undefined,\n    chunks: [\"static/chunks/Downloads_a_app_auth_page_0f2zi0t.js\"],\n    source: \"dynamic\"\n});\n"
+    },
+    {
+      "type": "response",
+      "url": "http://localhost:3000/_next/static/chunks/0ktf_next_dist_client_components_builtin_global-error_0c9jpyh.js",
+      "status": 200,
+      "body": "(globalThis[\"TURBOPACK_CHUNK_LISTS\"] || (globalThis[\"TURBOPACK_CHUNK_LISTS\"] = [])).push({\n    script: typeof document === \"object\" ? document.currentScript : undefined,\n    chunks: [],\n    source: \"dynamic\"\n});\n"
+    },
+    {
+      "type": "response",
+      "url": "http://localhost:3000/_next/static/chunks/0ktf_next_dist_client_0q5uo2q._.js",
+      "status": 200,
+      "body": "(globalThis[\"TURBOPACK\"] || (globalThis[\"TURBOPACK\"] = [])).push([typeof document === \"object\" ? document.currentScript : undefined,\n\"[project]/Downloads/a/node_modules/next/dist/client/register-deployment-id-global.js [app-client] (ecmascript)\", ((__turbopack_context__, module, exports) => {\n\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\nconst _deploymentid = __turbopack_context__.r(\"[project]/Downloads/a/node_modules/next/dist/shared/lib/deployment-id.js [app-client] (ecmascript)\");\nconst deploymentId = (0, _deploymentid.getDeploymentId)();\nglobalThis.NEXT_DEPLOYMENT_ID = deploymentId;\nif ((typeof exports.default === 'function' || typeof exports.default === 'object' && exports.default !== null) && typeof exports.default.__esModule === 'undefined') {\n    Object.defineProperty(exports.default, '__esModule', {\n        value: true\n    });\n    Object.assign(exports.default, exports);\n    module.exports = exports.default;\n}\n}),\n\"[project]/Downloads/a/node_modules/next/dist/client/asset-prefix.js [app-client] (ecmascript)\", ((__turbopack_context__, module, exports) => {\n\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\nObject.defineProperty(exports, \"getAssetPrefix\", {\n    enumerable: true,\n    get: function() {\n        return getAssetPrefix;\n    }\n});\nconst _invarianterror = __turbopack_context__.r(\"[project]/Downloads/a/node_modules/next/dist/shared/lib/invariant-error.js [app-client] (ecmascript)\");\nfunction getAssetPrefix() {\n    const currentScript = document.currentScript;\n    if (!(currentScript instanceof HTMLScriptElement)) {\n        throw Object.defineProperty(new _invarianterror.InvariantError(`Expected document.currentScript to be a <script> element. Received ${currentScript} instead.`), \"__NEXT_ERROR_CODE\", {\n            value: \"E783\",\n            enumerable: false,\n            configurable: true\n        });\n    }\n    const { pathname } = new URL(currentScript.src);\n    const nextIndex = path...[truncated]"
+    },
+    {
+      "type": "response",
+      "url": "http://localhost:3000/_next/static/chunks/0ktf_next_dist_compiled_next-devtools_index_1377g9-.js",
+      "status": 200,
+      "body": "(globalThis[\"TURBOPACK\"] || (globalThis[\"TURBOPACK\"] = [])).push([typeof document === \"object\" ? document.currentScript : undefined,\n\"[project]/Downloads/a/node_modules/next/dist/compiled/next-devtools/index.js (raw)\", ((__turbopack_context__, module, exports) => {\n\nvar process = {env:\n{\"__NEXT_DIST_DIR\":\"C:\\\\Users\\\\Pankaj\\\\Downloads\\\\a\\\\.next\\\\dev\",\"__NEXT_DEV_INDICATOR\":true,\"__NEXT_DEV_INDICATOR_POSITION\":\"bottom-left\",\"__NEXT_INSTANT_NAV_TOGGLE\":false,\"__NEXT_ROUTER_BASEPATH\":\"\",\"__NEXT_TELEMETRY_DISABLED\":false,\"__NEXT_BUNDLER\":\"Turbopack\",\"__NEXT_BUNDLER_HAS_PERSISTENT_CACHE\":true,\"TURBOPACK\":true,\"__NEXT_CACHE_COMPONENTS\":false}\n};\n(function(){\nvar __webpack_modules__={\"../../node_modules/.pnpm/css-loader@7.1.2_@rspack+core@1.6.7_@swc+helpers@0.5.15__webpack@5.98.0_@swc+core@1.11.24_@sw_bx7gx6l2cs2trwgqreijicltyy/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./src/next-devtools/dev-overlay/components/devtools-indicator/devtools-indicator.css\"(e,t,r){\"use strict\";r.d(t,{A:()=>l});var n=r(\"../../node_modules/.pnpm/css-loader@7.1.2_@rspack+core@1.6.7_@swc+helpers@0.5.15__webpack@5.98.0_@swc+core@1.11.24_@sw_bx7gx6l2cs2trwgqreijicltyy/node_modules/css-loader/dist/runtime/noSourceMaps.js\"),o=r.n(n),a=r(\"../../node_modules/.pnpm/css-loader@7.1.2_@rspack+core@1.6.7_@swc+helpers@0.5.15__webpack@5.98.0_@swc+core@1.11.24_@sw_bx7gx6l2cs2trwgqreijicltyy/node_modules/css-loader/dist/runtime/api.js\"),i=r.n(a)()(o());i.push([e.id,`[data-nextjs-toast] {\n  &[data-hidden='true'] {\n    display: none;\n  }\n}\n\n.dev-tools-indicator-menu {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  background: var(--color-background-100);\n  border: 1px solid var(--color-gray-alpha-400);\n  background-clip: padding-box;\n  box-shadow: var(--shadow-menu);\n  border-radius: var(--rounded-xl);\n  position: absolute;\n  font-family: var(--font-stack-sans);\n  z-index: 3;\n  overflow: hidden;\n  opacity: 0;\n  outline: 0;\n  min-width: 248px;\n  transition: opacity var(...[truncated]"
+    },
+    {
+      "type": "response",
+      "url": "http://localhost:3000/_next/static/chunks/0ktf_next_dist_compiled_react-dom_0ipbi09._.js",
+      "status": 200,
+      "body": "(globalThis[\"TURBOPACK\"] || (globalThis[\"TURBOPACK\"] = [])).push([typeof document === \"object\" ? document.currentScript : undefined,\n\"[project]/Downloads/a/node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js [app-client] (ecmascript)\", ((__turbopack_context__, module, exports) => {\n\"use strict\";\n\nvar __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$a$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i(\"[project]/Downloads/a/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)\");\n/**\n * @license React\n * react-dom.development.js\n *\n * Copyright (c) Meta Platforms, Inc. and affiliates.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */ \"use strict\";\n\"production\" !== (\"TURBOPACK compile-time value\", \"development\") && function() {\n    function noop() {}\n    function testStringCoercion(value) {\n        return \"\" + value;\n    }\n    function createPortal$1(children, containerInfo, implementation) {\n        var key = 3 < arguments.length && void 0 !== arguments[3] ? arguments[3] : null;\n        if (null == key) key = null;\n        else if (key === REACT_OPTIMISTIC_KEY) key = REACT_OPTIMISTIC_KEY;\n        else {\n            try {\n                testStringCoercion(key);\n                var JSCompiler_inline_result = !1;\n            } catch (e) {\n                JSCompiler_inline_result = !0;\n            }\n            JSCompiler_inline_result && (console.error(\"The provided key is an unsupported type %s. This value must be coerced to a string before using it here.\", \"function\" === typeof Symbol && Symbol.toStringTag && key[Symbol.toStringTag] || key.constructor.name || \"Object\"), testStringCoercion(key));\n            key = \"\" + key;\n        }\n        return {\n            $$typeof: REACT_PORTAL_TYPE,\n            key: key,\n            childre...[truncated]"
+    },
+    {
+      "type": "response",
+      "url": "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
+      "status": 200,
+      "body": "/* required styles */\r\n\r\n.leaflet-pane,\r\n.leaflet-tile,\r\n.leaflet-marker-icon,\r\n.leaflet-marker-shadow,\r\n.leaflet-tile-container,\r\n.leaflet-pane > svg,\r\n.leaflet-pane > canvas,\r\n.leaflet-zoom-box,\r\n.leaflet-image-layer,\r\n.leaflet-layer {\r\n\tposition: absolute;\r\n\tleft: 0;\r\n\ttop: 0;\r\n\t}\r\n.leaflet-container {\r\n\toverflow: hidden;\r\n\t}\r\n.leaflet-tile,\r\n.leaflet-marker-icon,\r\n.leaflet-marker-shadow {\r\n\t-webkit-user-select: none;\r\n\t   -moz-user-select: none;\r\n\t        user-select: none;\r\n\t  -webkit-user-drag: none;\r\n\t}\r\n/* Prevents IE11 from highlighting tiles in blue */\r\n.leaflet-tile::selection {\r\n\tbackground: transparent;\r\n}\r\n/* Safari renders non-retina tile on retina better with this, but Chrome is worse */\r\n.leaflet-safari .leaflet-tile {\r\n\timage-rendering: -webkit-optimize-contrast;\r\n\t}\r\n/* hack that prevents hw layers \"stretching\" when loading new tiles */\r\n.leaflet-safari .leaflet-tile-container {\r\n\twidth: 1600px;\r\n\theight: 1600px;\r\n\t-webkit-transform-origin: 0 0;\r\n\t}\r\n.leaflet-marker-icon,\r\n.leaflet-marker-shadow {\r\n\tdisplay: block;\r\n\t}\r\n/* .leaflet-container svg: reset svg max-width decleration shipped in Joomla! (joomla.org) 3.x */\r\n/* .leaflet-container img: map is broken in FF if you have max-width: 100% on tiles */\r\n.leaflet-container .leaflet-overlay-pane svg {\r\n\tmax-width: none !important;\r\n\tmax-height: none !important;\r\n\t}\r\n.leaflet-container .leaflet-marker-pane img,\r\n.leaflet-container .leaflet-shadow-pane img,\r\n.leaflet-container .leaflet-tile-pane img,\r\n.leaflet-container img.leaflet-image-layer,\r\n.leaflet-container .leaflet-tile {\r\n\tmax-width: none !important;\r\n\tmax-height: none !important;\r\n\twidth: auto;\r\n\tpadding: 0;\r\n\t}\r\n\r\n.leaflet-container img.leaflet-tile {\r\n\t/* See: https://bugs.chromium.org/p/chromium/issues/detail?id=600120 */\r\n\tmix-blend-mode: plus-lighter;\r\n}\r\n\r\n.leaflet-container.leaflet-touch-zoom {\r\n\t-ms-touch-action: pan-x pan-y;\r\n\ttouch-action: pan-x pan-y;\r\n\t}\r\n.leaflet-container.leaflet-touch-drag {\r\n\t-ms-touch-action: pinch-zoom;\r\n\t/...[truncated]"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "postData": null
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://fonts.gstatic.com/s/outfit/v15/QGYvz_MVcBeNP4NJtEtq.woff2",
+      "postData": null
+    },
+    {
+      "type": "response",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800;900&display=swap",
+      "status": 200,
+      "body": "/* cyrillic-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 300;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 300;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2) format('woff2');\n  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n/* greek-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 300;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2) format('woff2');\n  unicode-range: U+1F00-1FFF;\n}\n/* greek */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 300;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2) format('woff2');\n  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 300;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Inter';\n  font-style: normal;\n  font-weight: 300;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2) format('woff2');\n  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A...[truncated]"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_0yjw1oe._.js",
+      "postData": null
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_00bg12-._.js",
+      "postData": null
+    },
+    {
+      "type": "response",
+      "url": "http://localhost:3000/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_00bg12-._.js",
+      "status": 200,
+      "body": "(globalThis[\"TURBOPACK_CHUNK_LISTS\"] || (globalThis[\"TURBOPACK_CHUNK_LISTS\"] = [])).push({\n    script: typeof document === \"object\" ? document.currentScript : undefined,\n    chunks: [\"static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_0yjw1oe._.js\"],\n    source: \"dynamic\"\n});\n"
+    },
+    {
+      "type": "response",
+      "url": "http://localhost:3000/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_0yjw1oe._.js",
+      "status": 200,
+      "body": "(globalThis[\"TURBOPACK\"] || (globalThis[\"TURBOPACK\"] = [])).push([typeof document === \"object\" ? document.currentScript : undefined,\n\"[turbopack]/browser/dev/hmr-client/hmr-client.ts [app-client] (ecmascript)\", ((__turbopack_context__) => {\n\"use strict\";\n\n/// <reference path=\"../../../shared/runtime/runtime-types.d.ts\" />\n/// <reference path=\"../../../shared/runtime/dev-globals.d.ts\" />\n/// <reference path=\"../../../shared/runtime/dev-protocol.d.ts\" />\n/// <reference path=\"../../../shared/runtime/dev-extensions.ts\" />\n__turbopack_context__.s([\n    \"connect\",\n    ()=>connect,\n    \"setHooks\",\n    ()=>setHooks,\n    \"subscribeToUpdate\",\n    ()=>subscribeToUpdate\n]);\nfunction connect({ addMessageListener, sendMessage, onUpdateError = console.error }) {\n    addMessageListener((msg)=>{\n        switch(msg.type){\n            case 'turbopack-connected':\n                handleSocketConnected(sendMessage);\n                break;\n            default:\n                try {\n                    if (Array.isArray(msg.data)) {\n                        for(let i = 0; i < msg.data.length; i++){\n                            handleSocketMessage(msg.data[i]);\n                        }\n                    } else {\n                        handleSocketMessage(msg.data);\n                    }\n                    applyAggregatedUpdates();\n                } catch (e) {\n                    console.warn('[Fast Refresh] performing full reload\\n\\n' + \"Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.\\n\" + 'You might have a file which exports a React component but also exports a value that is imported by a non-React component file.\\n' + 'Consider migrating the non-React component export to a separate file and importing it into both files.\\n\\n' + 'It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.\\n' + 'Fast Refresh requires at least one parent function compone...[truncated]"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/api/data",
+      "postData": null
+    },
+    {
+      "type": "response",
+      "url": "https://fonts.gstatic.com/s/outfit/v15/QGYvz_MVcBeNP4NJtEtq.woff2",
+      "status": 200,
+      "body": "wOF2\u0000\u0001\u0000\u0000\u0000\u0000~$\u0000\u0014\u0000\u0000\u0000\u0001\u0012�\u0000\u0000}�\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001a�\n\u001b��\u0012\u001c�|?HVAR�\b?MVARP\u0006`?STAT�\u001e\u0000�\f/l\u0011\b\n��P�L\u000b�t\u00000��.\u00016\u0002$\u0003�d\u0004 \u0005�Z\u0007�\u0000\f\u0007[&\u0001Q�6\u0006���\u0001\u0000�\u001f}\u001a\u000bd�m���b\u0000\u0015y\u0017�FD�q �K���INd��\u0002�_�4\r�$e��j���\t�^�}��^\u0007���WQu4�\u001f�\u0006U�P�P\f\">fX�qt\u0018S�Nɠ�$\u0015�%�p�L�6\\�d��$~\f\u0006��\u0014��\u000eF�6��0�Θ\u0015N0{��h��8Y��l~�F�w�'\\2���W\"�5�\u0000��A\u0014\u0019��-y��?�~�>�U�GR��\f�\u0001�D~��#���.\tI\b\u0001B(-�\u0010B\f-DD\u0004�P\fՈ�X\u001a\u0001D@D@Dl !B(�*\u0002�\u0010C-��\r\u001b���~�\u0014;6,�A\u001f��������M4Yh�)��$\u0006�H�f\u0012�[���Ӿ7�\u0019i���7\u000e;𑹺�0\u001b�����*�\tp\u0001�8d;�����{؞��$�<�$���i�c`�@��\u001f���_◜ɻ��$'!\n\tx�v\u001dRѵ\u001372�w�7�N�>�J)V,�������9�=J\n\u0004�}-_@\u0018S�:����\r\u001a\n5���R��\u0007�h�|\"���$-e�\"���Z\u0019�\u001eF;�і���?�z����j��\u001f���cN`�B��N��=i��[�\u000b�E\u0000���i�u��(�8\u0010!��D�[�>ı�\u0000)P\n�\u001a]ǔN��3/=ow*t&vwU�gf�s9����g7F���\u0011���\b���\u0006�\nc\u001e�C�Y�\u0003T\f�Sq��ݽvOUػ�MO�V�*�\u0015M�\u0010�\u0004������#od,MC�\"\u0013��y:�h`@�\u0006��]]]������^�Z���.�?�^\u0012R4�CÙY�����\u000bA���\u001e�%m-�\u0016b[�E\u0011?h�f��G|&��Mv3K�4\t��3H\u001c\n�\u0012�l�x���\u0018�D�.�)�9[=@>\u0010%\u001d���~v�,Bw\u0013\u000f)�O��� \f�߹o�\t\u001b��G\u000eS�\u00149[\u001c\u001a\u0014BR�!���Di���묶���\b��\n߮�������\u001c\u001b�s�Mȫ^=���K\u001f�\u000f�.\t��\u0003��G\u0014�\u001f���\u0015�$|@\u000e�S�vgS!�\u000b�S\u001fSU#��\f���qB���q\u0017�!�}\n���fV��v���~��ُ��Z�vN��\u001f�.r���,M�0 �89������\u0002'�@\u001d\"��\"Q�e�\u0001D���Q�\nT���\u000b�I\n\t\u0012\u001e�C䰩\u001f���~�̔�����\u0010�\u0011�\u00181\b!�\u0010�1\"�����k\u001a�j�L�&Y�X��e3�M]��(@r�\u0006�P'�Ym\u0019\u0007_�\b\u001cc��3�7ƶ�\b\u0010��\u0010�\u001b�om���9j\u0010\u001a$\u001aB~vhX��\u000f��߅�G\u0007`\u0018�\u001e(�0�Cef�ǲ`P�\t\u000b\u0006ɰ\u000b\b\u0004x8@�t\r@K�eBI�\u0011`a�G��\u0004�\r��3\u001f\t\u000e\r��u\u000b\u0012��\u0005P5� �0/���\n\u0012\fm\u0000T�8$\u0018�\u0000��\u0014$H�\u0000T��\u0004)Iv��\u0018����&w��a���Y���4m�gU�:\u0015\r�V�E��\u0004\r޴�\u001a��\u001d�\u0010��\u0001IC�n�h\u0005\u0017j�W�^�L}��％\t�\f�f\u00001d\b1f\u000e�Ă��!�\\!n� �$\u0010_~\u0010�`H�P��b�\u0012K!˭��EC⬇$H��H�����\u0014�z{W�1\u0013p＇C\u0010Ђ\u0010�\u00197��E�\u001c\n\u0001�]\u0001\u000f\u0003�\u0003{�a0 �?(\b\u0015uq>k��>���n��Tx�ړ\u001c9K�9��5�ŉ:&���T�f\u0007a�+��^⟥(W\u0018[\u0015�/��Z�\u0006�[\u0014�#�bG.\t��\b�ҙ����)�\u0000�_�FB�&g�����cңȉ���cS�T��β<��\u0011�\u0018c�\u0019�H#Ҋ�e1ʨN�?A\u0006��x\u0012S��|�U\u0005G\u0011!Ӕ�<�����U6��mq�Ҫj�|�p\u0010x(\n\u0018*4\b��c���YX�u&\u0011S�4Vl\u0018ر疗m;�~��\"��R�FA�F-�ҡ���~�+n8p�#/x�/�\u0016�F��2�(\u000bY�Ʒ~�O\u001a��QW�ѭ�t�\u0007=�M���_q��\u001d�fB�\u0002��W�\u0017�\u0002� �i\u0011j�V�I,\u0016�Ť�(%�viZ��!��,ݥ�w\u0007\u0015�zZC\u001b\u000e\u001a\u001b�^|���-�\u000ee\u000e�L�gbN�@@��G�4:c\u0015 \u00188�\u0018��\u0018\u0004��'�M�4c\u0001������\u0011\u0000�\n\b\u0018|��K�8�ř�>��\t�/uM/\u001f56_\u001bk-*�I4*\u0012=\b\u0015���8\tjnGC�A��\u0002\r�B�\n�0�\u0017@�R�6\u0015-��\\ըj%��_@��\u0007�-�cm�!��(7��X���\u000f<�V����.�\b���\b\r�\b\t\u001e�\u001c�ڌ�\u001c\u001e�J�!!Ŗ�����ʣ�O\u0011oԮ_�����S�\u0006朐{�\u000e\u0010\u0012���n��\u0006���ԋY�o�6N~u5���DpD\u0004�\n4\t�E�dme�]\u000e\u001c�JHB�;-�ttx-h��$\u0018�%1�\"�e...[truncated]"
+    },
+    {
+      "type": "response",
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "body": "wOF2\u0000\u0001\u0000\u0000\u0000\u0000��\u0000\u0015\u0000\u0000\u0000\u0001� \u0000\u0000�\u0005\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001a�^\u001b��D\u001c�p?HVAR�i?MVAR^\u0006`?STAT�N'&\u0000�6/l\u0011\b\n��@��\u0014\u000b�\u000e\u00000��>\u00016\u0002$\u0003�\u0018\u0004 \u0005�.\u0007�\u0004\f\u0007[s͑B�\u001b����ljP��\u0010�ʩ�R��p\u00037w�p�Rwuc\u000e�Q�T�]=�\u001d�⾳�������N&c�n�n\u001b����Y���Q��Gʥ��\u001a�\f�\u0011މ\u0018�L��4KV��a��C��s�9�#����gF�\u0005��]\u0006�\u0018�\u0010)�P�=���U�}���z`�/d���ʶ��J��Sٰ��˿H����\u0016m�#:ʧ\t/\"�Z�)\u0018$̄Q��\u0014;��]����b5��g��q�r\u0019�Ŋߩ~���J.�]s�,�lKh\"d�\\2�I��jA\"J3d��W\"\u0018�F�<\u001dqZ'Q̙ˆW��%\u0002�����*1\u000e�\u0011I!�EA4�\b{��\u0015��\u0010^EĒ���Ky���^�xp�\u0000�Nu&S\u0013I�Ӝ\u0006�x��\u0005\u001f��v��L������oÚ�%jOI�#i�\u001a\\�\u000e����=�tAI*���$���~���z�\u001f��Ĕv�\t��\u001bt\u0013�\u0016?�!08\u0016�C�\u001ec����/���U��/\"�1V����W�e�\u0004m�#���zf#˒�\u0005\u0011\u0010\f+���\b�\u001c�(A0��\u0012\f��\u0010�'��.AT؃\u00159�����8D\u001e3\u0018qY0aH��y��,r�\f�n�/\u0001B\b!a\u0004\b\u0010B�S\u0014\u0005Qp�\u000e��j�\u001a7:�m�w�\u0015��޽��=��g�<Ǭ���/���Ir3�\u000f�\u0014Z�'PB�Dl�`n�(\u0006�PI\u0003\u0011\u0004�b��\\\u0014�`�\u0018#F��\u0018��Ao�h�a\u0001�di\u0003*F�\u000f#�#��9���\u0006\f�0Q?')lgb���GJ*@[JM�T��\u0016�b2� >9�>�3�d������s?\u0011+�n��o��\u0013���U��� !$\u0010�@HP��7���$@�R��nW\\�{�3�/�ҫ_���dDi�\u0002��QmV\u0015�T1HȞ��n[\u0018&��H��LO��\u0017��*ș���~���\\�4�\u0013aR1\u0016HXb\u0019.��q�@�Qo\u0007�\u0001�f�pW�\\z��\u0013\u0001V\u0011��|\u0011_J��_���5��Ξ��P�m8�BB̨����秶rտ��s�\n:T9�\u000e�\u0003�У\u00038m$��\u0000:X͖�N\u0018\u001d��i7�\u0004>�/\u000e�����\n\u0014�`(�\u0019/U8�׌c\u001cl��?Xg\te!�\u0014�\u0001��¾{��]\u0007;w�I[v��Ŝ\u0012�y,vI�C8�F��<F\u0002O�_9�y�\b\n%�\u0005����՚*W'�\u0007ΉO\u0006����N\u0013���B��S�0\u0011�~I�� �Χ�\u0010�V���p��\u0019��a\u001d\u0015e���'@B�mx[�\u000bb��(cw/\u000f���~��K��!3D�F\tD*~�æC҈�n�f\u0012�iS{���\u000e���߯߹�O�f����7sQ\u001fi�\\�6B!��x�R�xh��\u0011dlgT(\u00189�\u000b�05S�I�(F��9\u0000E\u0016\u000bN!5\u0012�$��]6\u0004\u0012��򿴸:+\u0012��ߛj����A6Z�,\u0000���M��X\u000biM\f��Y�\\~q\u0003\u0010\u0006@\u0003$��Y\u0000\u0014g��kPù\u000f��\u0001�e�\u001a���q�:g�\u0018�\u0001Ju-J�j�2��QZ�Rv�pΚ�.�6���.36�,�62>���y���W�\u001dy�l�!+0Ѐ�\u001cJv�c����Q�QJ)pRĭ0f-K�������k�w���W��\u00068�ܟi��\u001a����A�\u0006�>���4��zrN�\u0007�\f\nM�T�����H�y�\u0016@\u0016�\u0010�\u0000���u���γ��e��!�',\u001aC\bf7]#�'��ӕl���xp�۳��\u0001k�͑��\u0001x�+����x�p\u0005T�JQ��X��\u000e�m�:��׾՝u\u000f�NHb�h�\u000esw�k�{�;�ߚ\u000b=S�}Hb_PI��v�n�I�\u0003�.ʂ����\u0000�c\u0018���q��o\u0002���\u0012�*���?�I;�bf)��\u001eԂ�f\u0005,�?����!6�lHiX�u�\u0016\r-J�.���\\<�)�\u0003\u0013�\u0019�!�@\u0012\u0014\u0012���si۾f��\u000f2P('|�&�<%\u0017�� �\nX����d!�i{�}���\n+��m.m?�քB墒\u0013\u000e%���G�\r�\u001f\u000b��&EB\t\u0012ʾ�;Q�yr���\u0010�a�0F\b!�\bi���\r�����u��V�/{[�\u0012�aq�NDT��\u000b�����e��a��9g�\"� RD��A$sކi�\u0004\u000f �\u001f�'AD�~\"G����w%��\u0018����r�{\u001b\u0006聤����>[���|�\u001e\u00179�0�C\b��Q��P��_kiM5v�n`��\u0001Q�\u001f����\u0017��O�;�C��\u0010�`\u001a([5T�\t��+�� ��\u0010� \u0001�F\u0016`\u0002\u0014\u0000&D\u0003�F�\u001a�\u0016�7\\�<�0���<��B��\"�\u0013|a�\u0004�.I��Ʉi٢� �u��\u0013FA\u00048\u001c�;�N���*%\fa�!\u0018O�\u0006㄀�\u0003�\u0007\u000e&�\b\u0004^�\u0014կ[...[truncated]"
+    },
+    {
+      "type": "response",
+      "url": "http://localhost:3000/api/data",
+      "status": 200,
+      "body": "{\"success\":true,\"data\":{\"donors\":[{\"id\":\"d1\",\"name\":\"Taj Palace Kitchen\",\"type\":\"Hotel\",\"city\":\"Delhi\",\"lat\":28.6129,\"lng\":77.2295,\"rating\":4.8,\"totalDonations\":342,\"contact\":\"+91 98100 12345\"},{\"id\":\"d2\",\"name\":\"Saravana Bhavan\",\"type\":\"Restaurant\",\"city\":\"Chennai\",\"lat\":13.0604,\"lng\":80.2496,\"rating\":4.6,\"totalDonations\":256,\"contact\":\"+91 98400 23456\"},{\"id\":\"d3\",\"name\":\"Marriott Banquets\",\"type\":\"Hotel\",\"city\":\"Mumbai\",\"lat\":19.1136,\"lng\":72.8697,\"rating\":4.9,\"totalDonations\":189,\"contact\":\"+91 98200 34567\"},{\"id\":\"d4\",\"name\":\"ITC Grand Chola\",\"type\":\"Hotel\",\"city\":\"Chennai\",\"lat\":13.0108,\"lng\":80.2206,\"rating\":4.7,\"totalDonations\":278,\"contact\":\"+91 98400 45678\"},{\"id\":\"d5\",\"name\":\"Haldiram's Central\",\"type\":\"Restaurant\",\"city\":\"Delhi\",\"lat\":28.6315,\"lng\":77.2167,\"rating\":4.5,\"totalDonations\":412,\"contact\":\"+91 98100 56789\"},{\"id\":\"d6\",\"name\":\"MTR Foods\",\"type\":\"Restaurant\",\"city\":\"Bangalore\",\"lat\":12.9557,\"lng\":77.5858,\"rating\":4.4,\"totalDonations\":167,\"contact\":\"+91 98808 67890\"},{\"id\":\"d7\",\"name\":\"Oberoi Grand\",\"type\":\"Hotel\",\"city\":\"Kolkata\",\"lat\":22.5574,\"lng\":88.3509,\"rating\":4.8,\"totalDonations\":203,\"contact\":\"+91 98300 78901\"},{\"id\":\"d8\",\"name\":\"Paradise Biryani\",\"type\":\"Restaurant\",\"city\":\"Hyderabad\",\"lat\":17.4401,\"lng\":78.4983,\"rating\":4.6,\"totalDonations\":334,\"contact\":\"+91 98490 89012\"},{\"id\":\"d9\",\"name\":\"IIT Delhi Mess\",\"type\":\"Hostel\",\"city\":\"Delhi\",\"lat\":28.545,\"lng\":77.1926,\"rating\":4.2,\"totalDonations\":521,\"contact\":\"+91 98100 90123\"},{\"id\":\"d10\",\"name\":\"Café Coffee Day HQ\",\"type\":\"Café\",\"city\":\"Bangalore\",\"lat\":12.9352,\"lng\":77.6245,\"rating\":4.3,\"totalDonations\":145,\"contact\":\"+91 98808 01234\"},{\"id\":\"d11\",\"name\":\"Bikanervala\",\"type\":\"Restaurant\",\"city\":\"Jaipur\",\"lat\":26.9157,\"lng\":75.8015,\"rating\":4.5,\"totalDonations\":198,\"contact\":\"+91 98290 12345\"},{\"id\":\"d12\",\"name\":\"Hotel Soaltee\",\"type\":\"Hotel\",\"city\":\"Pune\",\"lat\":18.5308,\"lng\":73.8474,\"rating\":4.7,\"totalDonations\":156,\"contact\":\"+91 98226 23456\"},{\"id\":\"d13\",\"name\":\"Mainland China\",\"typ...[truncated]"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "url": "http://localhost:3000/api/auth/login",
+      "postData": "{\"email\":\"donor@feedlink.in\",\"password\":\"password\"}"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/donor?_rsc=1c3o6",
+      "postData": null
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://localhost:3000/donor?_rsc=1c3o6",
+      "postData": null
+    },
+    {
+      "type": "response",
+      "url": "http://localhost:3000/api/auth/login",
+      "status": 200,
+      "body": "{\"success\":true,\"user\":{\"id\":\"cmnk67ats000084ta7lgzgoix\",\"email\":\"donor@feedlink.in\",\"name\":\"Raj Sharma\",\"role\":\"donor\",\"avatar\":\"🍽️\",\"org\":\"Taj Palace Kitchen\",\"city\":\"Delhi\",\"phone\":\"+91 98100 11111\",\"verified\":true,\"createdAt\":\"2026-04-04T10:09:05.680Z\",\"updatedAt\":\"2026-04-04T10:09:05.680Z\"}}"
+    }
+  ],
+  "loginResponse": {
+    "success": true,
+    "user": {
+      "id": "cmnk67ats000084ta7lgzgoix",
+      "email": "donor@feedlink.in",
+      "name": "Raj Sharma",
+      "role": "donor",
+      "avatar": "🍽️",
+      "org": "Taj Palace Kitchen",
+      "city": "Delhi",
+      "phone": "+91 98100 11111",
+      "verified": true,
+      "createdAt": "2026-04-04T10:09:05.680Z",
+      "updatedAt": "2026-04-04T10:09:05.680Z"
+    }
+  }
+}
