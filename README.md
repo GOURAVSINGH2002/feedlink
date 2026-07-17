@@ -60,9 +60,9 @@ The system optimizes logistics using **distance-based matching** and **food urge
 - Spoilage risk prediction
 
 ###  Beneficiary Portal
-- Meal reservation system
-- Dietary filtering
-- Priority-based distribution
+- Meal reservation system.
+- Dietary filtering.
+- Priority-based distribution.
 
 ###  Sustainability Dashboard
 - Carbon footprint reduction tracking
