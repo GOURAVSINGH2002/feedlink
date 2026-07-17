@@ -277,9 +277,6 @@ CREATE TABLE iot_sensor_data (
 
 ---
 
-##  Screenshots
-
-Add your project screenshots here.
 
 ## 📸 Screenshots
 
